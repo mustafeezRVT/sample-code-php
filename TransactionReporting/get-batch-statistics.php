@@ -44,9 +44,9 @@ function getBatchStatistics($batchId = "7927817") //only shows results for batch
   			echo "		Charge Count	: " . $statistics->getChargeCount() . "\n";
   			echo "		Refund Amount	: " . $statistics->getRefundAmount() . "\n";
   			echo "		Refund Count	: " . $statistics->getRefundCount() . "\n";
-  			echo "		Void Count		: " . $statistics->getRefundCount() . "\n";
-  			echo "		Decline Count	: " . $statistics->getRefundCount() . "\n";
-  			echo "		Error Count		: " . $statistics->getRefundCount() . "\n";
+  			echo "		Void Count		: " . $statistics->getVoidCount() . "\n";
+  			echo "		Decline Count	: " . $statistics->getDeclineCount() . "\n";
+  			echo "		Error Count		: " . $statistics->getErrorCount() . "\n";
   		}
     }
     else
